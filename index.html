@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coastal Brew Co. — St. Augustine, FL</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Jost',sans-serif;background:#FAF7F2;color:#2A2520}
+nav{position:sticky;top:0;background:#FAF7F2;border-bottom:1px solid #E8E0D4;padding:0 48px;height:64px;display:flex;align-items:center;justify-content:space-between;z-index:10}
+.logo{font-family:'Cormorant Garamond',serif;font-size:20px;letter-spacing:.08em}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6B6158;text-decoration:none}
+.hero{height:88vh;background:linear-gradient(to bottom right,#2C2420,#1A1512);display:flex;align-items:flex-end;padding:0 64px 80px;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80') center/cover;opacity:.4}
+.hero-content{position:relative;max-width:600px}
+.hero-eyebrow{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#C9A96E;margin-bottom:16px}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,6vw,80px);font-weight:300;color:#FAF7F2;line-height:1.0;margin-bottom:20px}
+.hero-h1 em{font-style:italic;color:#E8D5B0}
+.hero-p{font-size:14px;color:rgba(250,247,242,.65);line-height:1.7;max-width:380px;margin-bottom:36px}
+.btn{display:inline-block;padding:13px 32px;background:#C9A96E;color:#1A1512;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;text-decoration:none}
+.section{padding:96px 64px;max-width:1240px;margin:0 auto}
+h2{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,4vw,54px);font-weight:300;margin-bottom:24px;line-height:1.1}
+h2 em{font-style:italic;color:#8B6914}
+p{font-size:15px;line-height:1.8;color:#5A5248;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px}
+.card{background:#fff;padding:32px;border:1px solid #E8E0D4}
+.card h3{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:400;margin-bottom:12px}
+footer{background:#2C2420;color:#C9A96E;text-align:center;padding:40px;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Coastal Brew Co.</div>
+  <ul class="nav-links"><li><a href="#">Menu</a></li><li><a href="#">Our Story</a></li><li><a href="#">Visit</a></li></ul>
+</nav>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">St. Augustine, Florida</div>
+    <h1 class="hero-h1">Coffee worth<br><em>slowing down</em><br>for.</h1>
+    <p class="hero-p">Small-batch roasts, single origins, and a quiet corner on the oldest street in America.</p>
+    <a href="#" class="btn">See the Menu</a>
+  </div>
+</section>
+<div class="section">
+  <h2>Roasted with<br><em>intention.</em></h2>
+  <p>Every bag starts with a single origin, sourced directly from farms we've visited. We roast in small batches twice a week so what reaches your cup is always fresh.</p>
+  <div class="grid">
+    <div class="card"><h3>Single Origin</h3><p>Ethiopia Yirgacheffe, Colombia Huila, Guatemala Antigua — rotating seasonally.</p></div>
+    <div class="card"><h3>House Blend</h3><p>Our everyday cup. Smooth, balanced, and built for however you take it.</p></div>
+    <div class="card"><h3>Cold Brew</h3><p>Steeped for 18 hours. Served over ice. Ready when you need it most.</p></div>
+  </div>
+</div>
+<footer>© 2026 Coastal Brew Co. · St. Augustine, FL</footer>
+</body>
+</html>
